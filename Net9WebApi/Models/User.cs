@@ -5,11 +5,11 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
-        public string Email { get; set; } = "jd@hotmail.com";
+        public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
-        public string Address {get; set;} = "999 Ocean Drive, One Plaza";
+        public string Address {get; set;} = string.Empty;
         public string City {get; set;} = string.Empty;
-        public string State {get; set;} = "Florida";
+        public string State {get; set;} = string.Empty;
         public string ZipCode {get; set;} = string.Empty;
     }
 
